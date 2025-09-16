@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<danhsach_sanpham>
+    <sanpham id="SP001" category="Điện tử" price="15000000" currency="VND" />
+    <sanpham id="SP002" category="Thời trang" price="750000" currency="VND" />
+    <sanpham id="SP003" category="Đồ gia dụng" price="120" currency="USD" />
+</danhsach_sanpham>
+
+

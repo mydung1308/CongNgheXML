@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
+-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<orders xmlns:order="http://company.com/order"
+        xmlns:prod="http://company.com/product">
+
+    <order:order id="O001" customer="Nguyễn Văn A" date="2025-03-02">
+        <prod:item id="P001" quantity="2" price="500">
+            <prod:name>Điện thoại Samsung</prod:name>
+        </prod:item>
+        <prod:item id="P002" quantity="1" price="1000">
+            <prod:name>Laptop Dell</prod:name>
+        </prod:item>
+    </order:order>
+
+    <order:order id="O002" customer="Trần Thị B" date="2025-03-05">
+        <prod:item id="P003" quantity="3" price="200">
+            <prod:name>Bàn phím cơ</prod:name>
+        </prod:item>
+        <prod:item id="P004" quantity="2" price="150">
+            <prod:name>Chuột không dây</prod:name>
+        </prod:item>
+        <prod:item id="P005" quantity="1" price="1200">
+            <prod:name>Màn hình LG 27 inch</prod:name>
+        </prod:item>
+    </order:order>
+
+</orders>
+
