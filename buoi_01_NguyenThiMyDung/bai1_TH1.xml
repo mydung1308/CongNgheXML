@@ -4,9 +4,26 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
 -->
 
+<thuvien>
+    <sach>
+        <title>Đắc Nhân Tâm</title>
+        <author>Dale Carnegie</author>
+        <year>1936</year>
+        <genre>Kỹ năng sống</genre>
+    </sach>
 
+    <sach>
+        <title>Chí Phèo</title>
+        <author>Nam Cao</author>
+        <year>1941</year>
+        <genre>Văn học</genre>
+    </sach>
 
-<root>
-    
-</root>
+    <sach>
+        <title>Harry Potter và Hòn Đá Phù Thủy</title>
+        <author>J.K. Rowling</author>
+        <year>1997</year>
+        <genre>Fantasy</genre>
+    </sach>
+</thuvien>
 
