@@ -4,7 +4,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
 -->
 
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE elearning SYSTEM "elearning.dtd">
+
 <elearning xmlns:course="http://example.com/course"
            xmlns:instructor="http://example.com/instructor"
            xmlns:student="http://example.com/student">

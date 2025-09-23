@@ -5,8 +5,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
 -->
 
 
+<!DOCTYPE hospital SYSTEM "hospital.dtd">
 
-<?xml version="1.0" encoding="UTF-8"?>
 <hospital xmlns="http://example.com/hospital"
           xmlns:pat="http://example.com/patient"
           xmlns:doc="http://example.com/doctor"

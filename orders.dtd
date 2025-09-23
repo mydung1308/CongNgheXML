@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/emptyDTD.dtd to edit this template
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT __ROOT__ ANY>
+<!ATTLIST __ROOT__ version CDATA #REQUIRED>
+
+<!ELEMENT orders (order:order+)>
+<!ATTLIST orders
+    xmlns:order CDATA #FIXED "http://company.com/order"
+    xmlns:prod  CDATA #FIXED "http://company.com/product">
+
+<!ELEMENT order:order (prod:item+)>
+<!ATTLIST order:order
+    id ID #REQUIRED
+    customer CDATA #REQUIRED
+    date CDATA #REQUIRED>
+
+<!ELEMENT prod:item (prod:name)>
+<!ATTLIST prod:item
+    id ID #REQUIRED
+    quantity CDATA #REQUIRED
+    price CDATA #REQUIRED>
+
+<!ELEMENT prod:name (#PCDATA)>
+
+

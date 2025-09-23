@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/XML/emptyDTD.dtd to edit this template
+-->
+
+<!--
+    TODO define vocabulary identification data
+    PUBLIC ID  : -//vendor//vocabulary//EN
+    SYSTEM ID  : http://server/path/__NAME__
+-->
+
+<!-- TODO define your own vocabulary/syntax. Example follows:  -->
+<!ELEMENT __ROOT__ ANY>
+<!ATTLIST __ROOT__ version CDATA #REQUIRED>
+
+<!ELEMENT company (dep:department+)>
+<!ATTLIST company
+    xmlns:hr CDATA #FIXED "http://company.com/hr"
+    xmlns:dep CDATA #FIXED "http://company.com/department">
+
+<!ELEMENT dep:department (hr:employee+)>
+<!ATTLIST dep:department name CDATA #REQUIRED>
+
+<!ELEMENT hr:employee (hr:name, hr:position)>
+<!ATTLIST hr:employee id ID #REQUIRED>
+
+<!ELEMENT hr:name (#PCDATA)>
+<!ELEMENT hr:position (#PCDATA)>
+

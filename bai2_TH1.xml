@@ -3,7 +3,7 @@
 Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
 Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
 -->
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE lop SYSTEM "lop.dtd">
 <lop>
     <sinhvien>
         <id>SV001</id>

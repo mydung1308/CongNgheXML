@@ -5,7 +5,8 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this 
 -->
 
 
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE orders SYSTEM "orders.dtd">
+
 <orders xmlns:order="http://company.com/order"
         xmlns:prod="http://company.com/product">
 

@@ -4,9 +4,9 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
 -->
 
+<!DOCTYPE danhsach_sanpham SYSTEM "sanpham.dtd">
 
 
-<?xml version="1.0" encoding="UTF-8"?>
 <danhsach_sanpham>
     <sanpham id="SP001" category="Điện tử" price="15000000" currency="VND" />
     <sanpham id="SP002" category="Thời trang" price="750000" currency="VND" />

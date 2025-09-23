@@ -4,7 +4,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to c
 Click nbfs://nbhost/SystemFileSystem/Templates/XML/XMLDocument.xml to edit this template
 -->
 
-<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE company SYSTEM "company.dtd">
 <company xmlns:hr="http://company.com/hr" xmlns:dep="http://company.com/department">
     
     <dep:department name="Kế toán">
