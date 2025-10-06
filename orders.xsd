@@ -35,7 +35,7 @@ Click nbfs://nbhost/SystemFileSystem/Templates/XML/XmlSchema.xsd to edit this te
           <!-- Ràng buộc id của product duy nhất trong từng order -->
           <xs:unique name="UniqueProductIDInOrder">
             <xs:selector xpath="product"/>
-            <xs:field xpath="@id"/>
+            <xs:field xpath="@id"/>  <!--@id = khi id là thuộc tính.|id = khi id là phần tử con. -->
           </xs:unique>
         </xs:element>
       </xs:sequence>
