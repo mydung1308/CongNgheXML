@@ -21,7 +21,7 @@ ten_nv02 = root.xpath("//NHANVIEN[MANV='NV02']/TENV")[0].text
 print("Tên nhân viên NV02:", ten_nv02)
 
 # 5. Lấy tên và số điện thoại của nhân viên NV03
-nv03 = root.xpath("//NHANVIEN[MANV='NV03']")[0]
+nv03 = root.xpath("//NHANVIEN[MANV='NV03']")[0]  # [0] → lấy phần tử đầu tiên trong danh sách đó.
 print("Tên và SĐT NV03:", nv03.findtext("TENV"), nv03.findtext("SDT"))
 
 # 6. Lấy tên món có giá > 50,000
@@ -59,7 +59,7 @@ print("Số bàn:", so_ban)
 
 # 14. Đếm số hóa đơn lập bởi NV01
 so_hd_nv01 = len(root.xpath("//HOADON[MANV='NV01']"))
-print("Số hóa đơn NV01:", so_hd_nv01)
+print("Số hóa đơn NV01:", so_hd_nv01) 
 
 # 15. Lấy tên tất cả món có trong hóa đơn của bàn số 2
 ma_mon_ban2 = root.xpath("//HOADON[SOBAN='2']//CTHD/MAMON")
@@ -80,8 +80,11 @@ manv_ban1 = root.xpath("//HOADON[SOBAN='1']/MANV")
 tennv_ban1 = list({root.xpath(f"//NHANVIEN[MANV='{m.text}']/TENV")[0].text for m in manv_ban1})
 print("Nhân viên phục vụ bàn 1:", tennv_ban1)
 
+
+
 # 19. Lấy tất cả món được gọi nhiều hơn 1 lần trong các hóa đơn
 from collections import defaultdict
+
 mon_counter = defaultdict(int)
 for cthd in root.xpath("//CTHD"):
     mamon = cthd.findtext("MAMON")
